@@ -1,0 +1,71 @@
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: Santio;
+    src: url("../fonts/Santio\ regular.ttf");
+}
+
+@font-face {
+    font-family: Tangerine;
+    src: url("../fonts/Tangerine-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header mit parallax effekt */
+header {
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url("../img/cleo-topper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+    margin: 2vh 3vw;
+}
+
+header img {
+    height: 3vh;
+    width: 3vw;
+    object-fit: contain;
+}
+
+header a {
+    color: white;
+    font-family: Roboto;
+    letter-spacing: 0.3rem;
+    border-bottom: 2px solid #e7bc0e;
+    text-decoration: none;
+    margin: 0 1vw;
+    padding: 1vh 0;
+}
+
+h1 {
+    font-family: Santio;
+    color: white;
+    font-size: 6rem;
+    width: 30vw;
+    margin: 10vh 0 3vh 5vw;
+}
+
+header p {
+    font-family: Tangerine;
+    color: #e7bc0e;
+    margin: 0 0 5vh 5vw;
+    font-size: 3rem;
+}
